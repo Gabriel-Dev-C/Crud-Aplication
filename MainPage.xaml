@@ -23,7 +23,7 @@
 
             <Entry
                 x:Name="etrNome"
-                Text="Digite aqui seu nome."/>
+                Placeholder="Digite aqui seu nome."/>
 
             <Button
                 x:Name="btnSubmit"
