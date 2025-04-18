@@ -1,0 +1,48 @@
+# Ignore arquivos de build e debug
+bin/
+obj/
+
+# Ignore arquivos de configuração do Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore arquivos de log
+*.log
+
+# Ignore pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore arquivos de backup
+*.bak
+*.swp
+
+# Ignore arquivos de cache
+*.cache
+*.temp
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de publicação
+publish/
+wwwroot/
+
+# Ignore arquivos de configuração locais
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore arquivos de lock
+project.lock.json
+project.fragment.lock.json
+
+# Ignore arquivos de build do MAUI
+bin/
+obj/
+platforms/
