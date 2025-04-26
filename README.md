@@ -6,7 +6,7 @@ O foco do projeto é desenvolver um aplicativo que desenvolva as funcionalidades
 
 
 <p align="center">
-<img src="./Resources/Images/readme-app.png" alt="Protótipo do projeto.">
+<img src="./Resources/Images/readme_app.png" alt="Protótipo do projeto.">
 </p>
 
 ## Meta
