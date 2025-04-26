@@ -49,7 +49,7 @@ namespace AplicativoAcademico.Helpers
 
         public Task<List<Periodo>> Search(string p)
         {
-            string sql = "SELECT * FROM Periodo WHERE Nome LIKE %'" + p + "'%";
+            string sql = "SELECT * FROM Periodo WHERE Nome LIKE '%" + p + "%'";
             return _connection.QueryAsync<Periodo>(sql);
         }
     }

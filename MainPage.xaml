@@ -30,6 +30,30 @@
                 Text="Cadastrar"
                 Clicked="btnSubmit_Clicked"/>
 
+            <SearchBar x:Name="txtSearch" Placeholder="Digite aqui o nome do aluno." TextChanged="txtSearch_TextChanged"/>
+
+            <ListView x:Name="lstPeriodos">
+                
+                <ListView.Header>
+                    <Grid ColumnDefinitions="*, *">
+                        <Label Grid.Column="0" Text="Código"/>
+                        <Label Grid.Column="1" Text="Nome"/>
+                    </Grid>
+                </ListView.Header>
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*, *">
+                                <Label Grid.Column="0" Text="{Binding Codigo}"/>
+                                <Label Grid.Column="1" Text="{Binding Nome}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+
         </VerticalStackLayout>
         
     </ScrollView>
